@@ -10,6 +10,7 @@ Mini-laboratoire permettant d'analyser des **logs d'authentification SSH** et d'
 L'objectif est d'identifier des **motifs fréquents** et des **règles d'association**, puis de comparer les performances des deux algorithmes.
 
 ---
+![Uploading image.png…]()
 
 ## 🏗️ Architecture
 
