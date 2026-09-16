@@ -10,7 +10,7 @@ Mini-laboratoire permettant d'analyser des **logs d'authentification SSH** et d'
 L'objectif est d'identifier des **motifs fréquents** et des **règles d'association**, puis de comparer les performances des deux algorithmes.
 
 ---
-![Uploading image.png…]()
+<img width="1147" height="772" alt="image" src="https://github.com/user-attachments/assets/8f323c20-b2f2-40b9-9e3f-641d6ec66edb" />
 
 ## 🏗️ Architecture
 
@@ -118,12 +118,6 @@ mini-lab/
 * Apriori
 * FP-Growth
 * Streamlit
-
----
-
-## 🔐 Utilisation
-
-Ce laboratoire est destiné à des **expérimentations contrôlées et autorisées** dans un environnement de test.
 
 ---
 
