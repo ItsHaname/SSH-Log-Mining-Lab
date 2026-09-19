@@ -1,0 +1,4 @@
+# Le parser, Apriori, FP-Growth et les regles n'utilisent que la bibliotheque
+# standard. Ces dependances ne servent qu'au dashboard.
+streamlit>=1.49
+pandas>=2.0
