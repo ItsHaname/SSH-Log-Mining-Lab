@@ -81,26 +81,19 @@ Les règles sont évaluées à l'aide de trois mesures principales :
 
 ## Comparaison des algorithmes
 
-Les deux algorithmes seront exécutés sur les **mêmes données** et avec les mêmes paramètres afin de permettre une comparaison cohérente.
+Les deux algorithmes sont exécutés sur les **mêmes données** et avec les mêmes
+paramètres. Résultats sur le log d'exemple (186 transactions,
+`MIN_SUPPORT = 0.1`, `MIN_CONFIDENCE = 0.6`) :
 
-Les critères étudiés sont notamment :
+| Critère                    | Apriori  | FP-Growth |
+| -------------------------- | -------: | --------: |
+| Temps d'exécution          | ~10-16 ms |    ~1 ms |
+| Nombre de motifs fréquents |       95 |        95 |
+| Nombre de règles           |      169 |       169 |
 
-Résultats obtenus sur le log d'exemple (186 transactions, `min_support = 0.1`,
-`min_confidence = 0.6`) :
-
-| Critère                    | Apriori | FP-Growth |
-| -------------------------- | ------: | --------: |
-| Temps d'exécution          | ~4-7 ms |   ~1.7 ms |
-| Nombre de motifs fréquents |      95 |        95 |
-| Nombre de règles           |     169 |       169 |
-| Consommation mémoire (pic) | ~100 Ko |   ~275 Ko |
-
-Les deux algorithmes trouvent **exactement les mêmes motifs fréquents**, ce qui
-valide les deux implémentations. FP-Growth est environ **3 à 4 fois plus rapide**
-car il ne génère aucun candidat, mais il consomme plus de mémoire à cause de
-l'arbre FP conservé en mémoire.
-
-Ces chiffres sont reproduits par `python experiments/compare.py`.
+Les deux algorithmes trouvent **exactement les mêmes motifs fréquents**.
+FP-Growth est beaucoup plus rapide car il ne génère pas de candidats : il range
+les transactions dans un arbre et lit l'arbre.
 
 ---
 
@@ -115,8 +108,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> Le parser, Apriori, FP-Growth et les règles n'utilisent que la **bibliothèque
-> standard** de Python. `streamlit` et `pandas` ne servent qu'au dashboard.
+Seules deux bibliothèques sont utilisées : **pandas** et **streamlit**.
 
 ---
 
@@ -125,50 +117,39 @@ pip install -r requirements.txt
 ### 1. Comparer Apriori et FP-Growth
 
 ```bash
-python experiments/compare.py
+python comparaison.py
 ```
 
-Options : `python experiments/compare.py <fichier_log> <min_support> <min_confidence>`
+Les paramètres se changent directement en haut du fichier :
 
-```bash
-python experiments/compare.py data/sample_auth.log 0.05 0.7
+```python
+FICHIER = "data/sample_auth.log"
+MIN_SUPPORT = 0.1
+MIN_CONFIDENCE = 0.6
 ```
-
-Le script affiche le tableau de comparaison (temps, mémoire, motifs, règles)
-puis les 10 meilleures règles triées par lift.
 
 ### 2. Lancer le dashboard
 
 ```bash
-streamlit run dashboard/app.py
+streamlit run dashboard.py
 ```
 
-Le dashboard s'ouvre sur `http://localhost:8501` et propose quatre onglets :
+Le dashboard s'ouvre sur `http://localhost:8501`. Le fichier de log, le support
+et la confiance se règlent dans la barre de gauche.
 
-| Onglet                   | Contenu                                                  |
-| ------------------------ | -------------------------------------------------------- |
-| Logs                     | Événements analysés, types d'événements, top des IP      |
-| Motifs fréquents         | Itemsets fréquents et leur support                       |
-| Règles d'association     | Règles avec support / confidence / lift, export CSV      |
-| Apriori vs FP-Growth     | Comparaison des deux algorithmes                          |
-
-Le support et la confiance minimum se règlent dans la barre latérale, et un
-autre fichier de log peut y être chargé.
-
-### 3. Utiliser les modules directement
+### 3. Utiliser les fonctions directement
 
 ```python
-from src.parser import load_transactions
-from src.apriori import apriori
-from src.fp_growth import fp_growth
-from src.rules import generate_rules, format_rule
+from lecture_logs import lire_fichier, creer_transactions
+from fp_growth import fp_growth
+from regles import generer_regles
 
-transactions = load_transactions("data/sample_auth.log")
-itemsets = fp_growth(transactions, min_support=0.1)
-rules = generate_rules(itemsets, min_confidence=0.6)
+df = lire_fichier("data/sample_auth.log")
+transactions = creer_transactions(df)
 
-for rule in rules[:5]:
-    print(format_rule(rule), round(rule["lift"], 2))
+motifs = fp_growth(transactions, 0.1)
+regles = generer_regles(motifs, 0.6)
+print(regles.head())
 ```
 
 ---
@@ -216,18 +197,21 @@ règle apparaissent ensemble bien plus souvent que ne le voudrait le hasard.
 
 ---
 
-## Étape suivante
+## Logs du Raspberry Pi
 
-Le fichier `data/sample_auth.log` est un **log d'exemple**. L'étape finale du
-laboratoire consiste à collecter le vrai `/var/log/auth.log` d'un **Raspberry
-Pi** et à le passer aux mêmes scripts :
+Le fichier `data/sample_auth.log` est un **log d'exemple**. Pour analyser les
+vrais logs du Raspberry Pi :
 
 ```bash
-python experiments/compare.py data/auth.log
+# Raspberry Pi OS récent (Bookworm) : les logs SSH sont dans journalctl
+ssh <utilisateur>@<ip_du_pi> "journalctl -u ssh --no-pager -o short" > data/auth.log
+
+# Raspberry Pi OS plus ancien : le fichier auth.log existe
+scp <utilisateur>@<ip_du_pi>:/var/log/auth.log data/auth.log
 ```
 
-Aucune modification du code n'est nécessaire : le parser lit le format syslog
-standard de `sshd`.
+Ensuite, dans `comparaison.py`, mettre `FICHIER = "data/auth.log"` (ou taper
+`data/auth.log` dans la barre de gauche du dashboard).
 
 ---
 
@@ -240,19 +224,14 @@ SSH-Log-Mining-Lab/
 ├── requirements.txt
 │
 ├── data/
-│   └── sample_auth.log      # log SSH d'exemple (sera remplacé par le Raspberry Pi)
+│   └── sample_auth.log      # log SSH d'exemple
 │
-├── src/
-│   ├── parser.py            # log -> événements -> transactions
-│   ├── apriori.py           # Apriori
-│   ├── fp_growth.py         # FP-Growth
-│   └── rules.py             # règles + support / confidence / lift
-│
-├── experiments/
-│   └── compare.py           # comparaison Apriori vs FP-Growth
-│
-└── dashboard/
-    └── app.py               # dashboard Streamlit
+├── lecture_logs.py          # log -> événements (DataFrame) -> transactions
+├── apriori.py               # Apriori
+├── fp_growth.py             # FP-Growth
+├── regles.py                # règles + support / confidence / lift
+├── comparaison.py           # comparaison Apriori vs FP-Growth
+└── dashboard.py             # dashboard Streamlit
 ```
 
 ---
