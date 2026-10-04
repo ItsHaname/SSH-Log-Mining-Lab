@@ -1,0 +1,510 @@
+Nov 19 13:39:34 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:39:34 raspberrypi sshd[961]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:39:34 raspberrypi sshd[961]: Server listening on :: port 22.
+Nov 19 13:39:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:39:36 raspberrypi systemd[1]: Reloading ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:39:36 raspberrypi sshd[961]: Received SIGHUP; restarting.
+Nov 19 13:39:36 raspberrypi systemd[1]: Reloaded ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:39:36 raspberrypi sshd[961]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:39:36 raspberrypi sshd[961]: Server listening on :: port 22.
+-- Boot 698792c404e24bf898a107306e5945c3 --
+Nov 19 13:43:33 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:43:34 raspberrypi sshd[646]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:43:34 raspberrypi sshd[646]: Server listening on :: port 22.
+Nov 19 13:43:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 55956bc9c89b4b0db588c1712f54974a --
+Nov 19 13:44:34 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:44:34 raspberrypi sshd[644]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:44:34 raspberrypi sshd[644]: Server listening on :: port 22.
+Nov 19 13:44:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:45:47 raspberrypi sshd[684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1  user=pi
+Nov 19 13:45:49 raspberrypi sshd[684]: Failed password for pi from 192.168.50.1 port 38614 ssh2
+Nov 19 13:45:56 raspberrypi sshd[684]: Failed password for pi from 192.168.50.1 port 38614 ssh2
+-- Boot cb5d6162a429479cad3e921ef111c5ad --
+Nov 19 13:46:34 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:46:34 raspberrypi sshd[652]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:46:34 raspberrypi sshd[652]: Server listening on :: port 22.
+Nov 19 13:46:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:47:02 raspberrypi sshd[684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1  user=pi
+Nov 19 13:47:04 raspberrypi sshd[684]: Failed password for pi from 192.168.50.1 port 44634 ssh2
+Nov 19 13:47:20 raspberrypi sshd[684]: Failed password for pi from 192.168.50.1 port 44634 ssh2
+Nov 19 13:48:06 raspberrypi sshd[684]: Connection closed by authenticating user pi 192.168.50.1 port 44634 [preauth]
+Nov 19 13:48:06 raspberrypi sshd[684]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1  user=pi
+-- Boot b803b616391541ea8097ea57ef6c52ee --
+Nov 19 13:48:34 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:48:34 raspberrypi sshd[655]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:48:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:48:34 raspberrypi sshd[655]: Server listening on :: port 22.
+Nov 19 13:49:25 raspberrypi sshd[691]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1  user=pi
+Nov 19 13:49:28 raspberrypi sshd[691]: Failed password for pi from 192.168.50.1 port 46104 ssh2
+Nov 19 13:49:41 raspberrypi sshd[691]: Failed password for pi from 192.168.50.1 port 46104 ssh2
+Nov 19 13:49:54 raspberrypi sshd[691]: Failed password for pi from 192.168.50.1 port 46104 ssh2
+Nov 19 13:49:55 raspberrypi sshd[691]: Connection closed by authenticating user pi 192.168.50.1 port 46104 [preauth]
+Nov 19 13:49:55 raspberrypi sshd[691]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.1  user=pi
+-- Boot aa5adcad2c1c4b9081be3c39afd23e5b --
+Nov 19 13:50:35 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:50:35 raspberrypi sshd[723]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:50:35 raspberrypi sshd[723]: Server listening on :: port 22.
+Nov 19 13:50:36 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:54:15 raspberrypi sshd[747]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4  user=pi
+Nov 19 13:54:17 raspberrypi sshd[747]: Failed password for pi from 192.168.50.4 port 48024 ssh2
+Nov 19 13:54:24 raspberrypi sshd[747]: Failed password for pi from 192.168.50.4 port 48024 ssh2
+Nov 19 13:54:30 raspberrypi sshd[747]: Connection closed by authenticating user pi 192.168.50.4 port 48024 [preauth]
+Nov 19 13:54:30 raspberrypi sshd[747]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4  user=pi
+Nov 19 13:54:39 raspberrypi unix_chkpwd[753]: check pass; user unknown
+Nov 19 13:54:39 raspberrypi unix_chkpwd[753]: password check failed for user (pi)
+Nov 19 13:54:39 raspberrypi sshd[751]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4  user=pi
+Nov 19 13:54:41 raspberrypi sshd[751]: Failed password for pi from 192.168.50.4 port 52250 ssh2
+Nov 19 13:54:46 raspberrypi unix_chkpwd[754]: check pass; user unknown
+Nov 19 13:54:46 raspberrypi unix_chkpwd[754]: password check failed for user (pi)
+Nov 19 13:54:48 raspberrypi sshd[751]: Failed password for pi from 192.168.50.4 port 52250 ssh2
+-- Boot 1e03cbfaa75c47d0a1a9dd90327c792a --
+Nov 19 13:54:42 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:54:42 raspberrypi sshd[643]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:54:42 raspberrypi sshd[643]: Server listening on :: port 22.
+Nov 19 13:54:42 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 9240581d639040e6aae2665a5729e1f7 --
+Nov 19 13:54:42 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:54:42 raspberrypi sshd[652]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:54:42 raspberrypi sshd[652]: Server listening on :: port 22.
+Nov 19 13:54:42 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:54:57 raspberrypi sshd[684]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Nov 19 13:55:22 raspberrypi sshd[690]: Connection closed by authenticating user pi 192.168.50.4 port 36018 [preauth]
+-- Boot 9405e2346b7c43319f1c024bd93fcfb8 --
+Nov 19 13:54:42 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:54:42 raspberrypi sshd[648]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:54:42 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:55:02 raspberrypi sshd[683]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Nov 19 13:55:11 raspberrypi unix_chkpwd[689]: could not obtain user info (pi)
+Nov 19 13:55:11 raspberrypi sshd[687]: fatal: Access denied for user pi by PAM account configuration [preauth]
+-- Boot 062e0cff17e74c6a8beab9f939afc191 --
+Nov 19 13:55:44 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:55:45 raspberrypi sshd[719]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:55:45 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:56:49 raspberrypi sshd[744]: Accepted publickey for pi from 192.168.50.4 port 56156 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Nov 19 13:56:49 raspberrypi sshd[744]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Nov 19 13:56:49 raspberrypi sshd[744]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 5687770ab77e455fbd6f2fa5ecc3769c --
+Nov 19 13:57:48 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 13:57:48 raspberrypi sshd[645]: Server listening on 0.0.0.0 port 22.
+Nov 19 13:57:48 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 13:57:59 raspberrypi sshd[681]: Accepted publickey for pi from 192.168.50.4 port 53194 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Nov 19 13:57:59 raspberrypi sshd[681]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Nov 19 13:57:59 raspberrypi sshd[681]: pam_env(sshd:session): deprecated reading of user environment enabled
+Nov 19 13:58:34 raspberrypi sshd[728]: Accepted publickey for pi from 192.168.50.4 port 50952 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Nov 19 13:58:34 raspberrypi sshd[728]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Nov 19 13:58:34 raspberrypi sshd[728]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 6e1d380c775047308c96bdae1ce09d9c --
+Nov 19 14:10:10 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Nov 19 14:10:10 raspberrypi sshd[649]: Server listening on 0.0.0.0 port 22.
+Nov 19 14:10:10 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 19 14:11:21 raspberrypi sshd[696]: Accepted publickey for pi from 192.168.50.4 port 45814 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Nov 19 14:11:21 raspberrypi sshd[696]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Nov 19 14:11:21 raspberrypi sshd[696]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 06 20:08:07 raspberrypi sshd[649]: Received signal 15; terminating.
+Mar 06 20:08:07 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 06 20:08:07 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 06 20:08:07 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Mar 06 20:08:07 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 06 20:08:08 raspberrypi sshd[20559]: Server listening on 0.0.0.0 port 22.
+Mar 06 20:08:08 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 06 20:13:07 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 06 20:13:07 raspberrypi sshd[20559]: Received signal 15; terminating.
+Mar 06 20:13:07 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 06 20:13:07 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot a09f325a18e74ec5828840ea3241dbca --
+Mar 06 20:13:26 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 06 20:13:26 raspberrypi sshd[670]: Server listening on 0.0.0.0 port 22.
+Mar 06 20:13:26 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 06 20:13:31 raspberrypi sshd[720]: Accepted publickey for pi from 192.168.50.4 port 41636 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 06 20:13:31 raspberrypi sshd[720]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 06 20:13:31 raspberrypi sshd[720]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 06 21:00:45 raspberrypi sshd[2681]: Accepted publickey for pi from 192.168.50.4 port 48576 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 06 21:00:45 raspberrypi sshd[2681]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 06 21:00:45 raspberrypi sshd[2681]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 265f5f80018e4a6e978d6c54495b40b4 --
+Mar 07 01:10:36 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 07 01:10:36 raspberrypi sshd[666]: Server listening on 0.0.0.0 port 22.
+Mar 07 01:10:36 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 07 01:13:33 raspberrypi sshd[702]: Accepted publickey for pi from 192.168.50.4 port 36032 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 07 01:13:33 raspberrypi sshd[702]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 07 01:13:33 raspberrypi sshd[702]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 07 01:14:07 raspberrypi sshd[740]: Accepted publickey for pi from 192.168.50.4 port 56706 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 07 01:14:07 raspberrypi sshd[740]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 07 01:14:07 raspberrypi sshd[740]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot c70680f265504c29bfe1b5741a2c7b1f --
+Mar 07 01:14:42 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 07 01:14:42 raspberrypi sshd[676]: Server listening on 0.0.0.0 port 22.
+Mar 07 01:14:42 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 07 01:14:50 raspberrypi sshd[708]: Accepted publickey for pi from 192.168.50.4 port 38882 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 07 01:14:50 raspberrypi sshd[708]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 07 01:14:50 raspberrypi sshd[708]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 00:40:21 raspberrypi sshd[3459]: Connection closed by 192.168.50.2 port 54168 [preauth]
+Mar 13 00:40:35 raspberrypi sshd[3461]: Accepted publickey for pi from 192.168.50.4 port 54440 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 00:40:35 raspberrypi sshd[3461]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 00:40:35 raspberrypi sshd[3461]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 8278be5f0be34cecaa6644ff63d2e30c --
+Mar 13 01:00:27 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 13 01:00:27 raspberrypi sshd[728]: Server listening on 0.0.0.0 port 22.
+Mar 13 01:00:27 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 13 01:01:14 raspberrypi sshd[776]: Accepted publickey for pi from 192.168.50.4 port 34850 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 01:01:14 raspberrypi sshd[776]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 01:01:14 raspberrypi sshd[776]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 02:04:44 raspberrypi sshd[912]: Accepted publickey for pi from 192.168.50.4 port 34678 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 02:04:44 raspberrypi sshd[912]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 02:04:44 raspberrypi sshd[912]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 02:04:44 raspberrypi sshd[912]: pam_unix(sshd:session): session closed for user pi
+Mar 13 02:32:41 raspberrypi sshd[1056]: Invalid user mauvais_user from 192.168.50.4 port 41926
+Mar 13 02:32:43 raspberrypi sshd[1056]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:32:43 raspberrypi sshd[1056]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:32:45 raspberrypi sshd[1056]: Failed password for invalid user mauvais_user from 192.168.50.4 port 41926 ssh2
+Mar 13 02:32:48 raspberrypi sshd[1056]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:32:50 raspberrypi sshd[1056]: Failed password for invalid user mauvais_user from 192.168.50.4 port 41926 ssh2
+Mar 13 02:32:54 raspberrypi sshd[1056]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:32:57 raspberrypi sshd[1056]: Failed password for invalid user mauvais_user from 192.168.50.4 port 41926 ssh2
+Mar 13 02:32:58 raspberrypi sshd[1056]: Connection closed by invalid user mauvais_user 192.168.50.4 port 41926 [preauth]
+Mar 13 02:32:58 raspberrypi sshd[1056]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:32:59 raspberrypi sshd[1058]: Invalid user mauvais_user from 192.168.50.4 port 42086
+Mar 13 02:33:04 raspberrypi sshd[1058]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:04 raspberrypi sshd[1058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:33:06 raspberrypi sshd[1058]: Failed password for invalid user mauvais_user from 192.168.50.4 port 42086 ssh2
+Mar 13 02:33:17 raspberrypi sshd[1058]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:19 raspberrypi sshd[1058]: Failed password for invalid user mauvais_user from 192.168.50.4 port 42086 ssh2
+Mar 13 02:33:26 raspberrypi sshd[1058]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:28 raspberrypi sshd[1058]: Failed password for invalid user mauvais_user from 192.168.50.4 port 42086 ssh2
+Mar 13 02:33:28 raspberrypi sshd[1058]: Connection closed by invalid user mauvais_user 192.168.50.4 port 42086 [preauth]
+Mar 13 02:33:28 raspberrypi sshd[1058]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:33:28 raspberrypi sshd[1060]: Invalid user mauvais_user from 192.168.50.4 port 34578
+Mar 13 02:33:34 raspberrypi sshd[1060]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:34 raspberrypi sshd[1060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:33:36 raspberrypi sshd[1060]: Failed password for invalid user mauvais_user from 192.168.50.4 port 34578 ssh2
+Mar 13 02:33:43 raspberrypi sshd[1060]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:44 raspberrypi sshd[1060]: Failed password for invalid user mauvais_user from 192.168.50.4 port 34578 ssh2
+Mar 13 02:33:54 raspberrypi sshd[1060]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:33:56 raspberrypi sshd[1060]: Failed password for invalid user mauvais_user from 192.168.50.4 port 34578 ssh2
+Mar 13 02:33:56 raspberrypi sshd[1060]: Connection closed by invalid user mauvais_user 192.168.50.4 port 34578 [preauth]
+Mar 13 02:33:56 raspberrypi sshd[1060]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:33:56 raspberrypi sshd[1062]: Invalid user mauvais_user from 192.168.50.4 port 44770
+Mar 13 02:34:00 raspberrypi sshd[1062]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:34:00 raspberrypi sshd[1062]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:34:02 raspberrypi sshd[1062]: Failed password for invalid user mauvais_user from 192.168.50.4 port 44770 ssh2
+Mar 13 02:34:06 raspberrypi sshd[1062]: pam_unix(sshd:auth): check pass; user unknown
+Mar 13 02:34:08 raspberrypi sshd[1062]: Failed password for invalid user mauvais_user from 192.168.50.4 port 44770 ssh2
+Mar 13 02:34:09 raspberrypi sshd[1062]: Connection closed by invalid user mauvais_user 192.168.50.4 port 44770 [preauth]
+Mar 13 02:34:09 raspberrypi sshd[1062]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 13 02:35:55 raspberrypi sshd[728]: Received signal 15; terminating.
+Mar 13 02:35:55 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 13 02:35:55 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 13 02:35:55 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 92cd6a05d34d44f587868d28c69af673 --
+Mar 13 02:35:58 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 13 02:35:58 raspberrypi sshd[728]: Server listening on 0.0.0.0 port 22.
+Mar 13 02:35:58 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 13 02:36:45 raspberrypi sshd[775]: Accepted publickey for pi from 192.168.50.4 port 47876 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 02:36:45 raspberrypi sshd[775]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 02:36:45 raspberrypi sshd[775]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 02:36:48 raspberrypi sshd[775]: pam_unix(sshd:session): session closed for user pi
+Mar 13 02:36:58 raspberrypi sshd[813]: Accepted publickey for pi from 192.168.50.4 port 38776 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 02:36:58 raspberrypi sshd[813]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 02:36:58 raspberrypi sshd[813]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:00:05 raspberrypi sshd[2648]: Accepted publickey for pi from 192.168.50.4 port 53594 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 03:00:05 raspberrypi sshd[2648]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 03:00:05 raspberrypi sshd[2648]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:00:05 raspberrypi sshd[2648]: pam_unix(sshd:session): session closed for user pi
+Mar 13 03:00:06 raspberrypi sshd[2656]: Accepted publickey for pi from 192.168.50.4 port 53608 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 03:00:06 raspberrypi sshd[2656]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 03:00:06 raspberrypi sshd[2656]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:00:06 raspberrypi sshd[2656]: pam_unix(sshd:session): session closed for user pi
+Mar 13 03:01:44 raspberrypi sshd[2670]: Accepted publickey for pi from 192.168.50.4 port 56288 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 03:01:44 raspberrypi sshd[2670]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 03:01:44 raspberrypi sshd[2670]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:01:44 raspberrypi sshd[2670]: pam_unix(sshd:session): session closed for user pi
+Mar 13 03:01:44 raspberrypi sshd[2678]: Accepted publickey for pi from 192.168.50.4 port 56294 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 03:01:44 raspberrypi sshd[2678]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 03:01:44 raspberrypi sshd[2678]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:01:44 raspberrypi sshd[2678]: pam_unix(sshd:session): session closed for user pi
+Mar 13 03:01:44 raspberrypi sshd[2686]: Accepted publickey for pi from 192.168.50.4 port 56304 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 03:01:44 raspberrypi sshd[2686]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 03:01:44 raspberrypi sshd[2686]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 03:01:44 raspberrypi sshd[2686]: pam_unix(sshd:session): session closed for user pi
+-- Boot 08aa789f82f3460ab346f57d4d869810 --
+Mar 13 05:21:25 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 13 05:21:25 raspberrypi sshd[737]: Server listening on 0.0.0.0 port 22.
+Mar 13 05:21:25 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 13 05:21:47 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 13 05:21:47 raspberrypi sshd[737]: Received signal 15; terminating.
+Mar 13 05:21:47 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 13 05:21:47 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 2e749ffa42554370ac28263f0bb1c527 --
+Mar 13 05:21:51 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 13 05:21:51 raspberrypi sshd[737]: Server listening on 0.0.0.0 port 22.
+Mar 13 05:21:51 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 13 05:23:19 raspberrypi sshd[783]: Accepted publickey for pi from 192.168.50.4 port 44772 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 05:23:19 raspberrypi sshd[783]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 05:23:19 raspberrypi sshd[783]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 13 05:26:18 raspberrypi sshd[875]: Accepted publickey for pi from 192.168.50.4 port 38424 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 13 05:26:18 raspberrypi sshd[875]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 13 05:26:18 raspberrypi sshd[875]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 17 22:29:06 raspberrypi sshd[1762]: Invalid user wronguser from 192.168.50.4 port 38470
+Mar 17 22:29:08 raspberrypi sshd[1762]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:08 raspberrypi sshd[1762]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:29:10 raspberrypi sshd[1762]: Failed password for invalid user wronguser from 192.168.50.4 port 38470 ssh2
+Mar 17 22:29:14 raspberrypi sshd[1762]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:16 raspberrypi sshd[1762]: Failed password for invalid user wronguser from 192.168.50.4 port 38470 ssh2
+Mar 17 22:29:19 raspberrypi sshd[1762]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:21 raspberrypi sshd[1762]: Failed password for invalid user wronguser from 192.168.50.4 port 38470 ssh2
+Mar 17 22:29:22 raspberrypi sshd[1762]: Connection closed by invalid user wronguser 192.168.50.4 port 38470 [preauth]
+Mar 17 22:29:22 raspberrypi sshd[1762]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:29:22 raspberrypi sshd[1798]: Invalid user wronguser from 192.168.50.4 port 53140
+Mar 17 22:29:24 raspberrypi sshd[1798]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:24 raspberrypi sshd[1798]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:29:25 raspberrypi sshd[1798]: Failed password for invalid user wronguser from 192.168.50.4 port 53140 ssh2
+Mar 17 22:29:30 raspberrypi sshd[1798]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:32 raspberrypi sshd[1798]: Failed password for invalid user wronguser from 192.168.50.4 port 53140 ssh2
+Mar 17 22:29:43 raspberrypi sshd[1798]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:45 raspberrypi sshd[1798]: Failed password for invalid user wronguser from 192.168.50.4 port 53140 ssh2
+Mar 17 22:29:46 raspberrypi sshd[1798]: Connection closed by invalid user wronguser 192.168.50.4 port 53140 [preauth]
+Mar 17 22:29:46 raspberrypi sshd[1798]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:29:46 raspberrypi sshd[1834]: Invalid user wronguser from 192.168.50.4 port 59080
+Mar 17 22:29:50 raspberrypi sshd[1834]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:50 raspberrypi sshd[1834]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:29:52 raspberrypi sshd[1834]: Failed password for invalid user wronguser from 192.168.50.4 port 59080 ssh2
+Mar 17 22:29:55 raspberrypi sshd[1834]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:29:57 raspberrypi sshd[1834]: Failed password for invalid user wronguser from 192.168.50.4 port 59080 ssh2
+Mar 17 22:30:01 raspberrypi sshd[1834]: pam_unix(sshd:auth): check pass; user unknown
+Mar 17 22:30:03 raspberrypi sshd[1834]: Failed password for invalid user wronguser from 192.168.50.4 port 59080 ssh2
+Mar 17 22:30:04 raspberrypi sshd[1834]: Connection closed by invalid user wronguser 192.168.50.4 port 59080 [preauth]
+Mar 17 22:30:04 raspberrypi sshd[1834]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.4
+Mar 17 22:30:05 raspberrypi sshd[1870]: Invalid user wronguser from 192.168.50.4 port 55580
+Mar 17 22:30:07 raspberrypi sshd[1870]: Connection closed by invalid user wronguser 192.168.50.4 port 55580 [preauth]
+Mar 17 22:32:03 raspberrypi sshd[2059]: error: kex_exchange_identification: Connection closed by remote host
+Mar 17 22:32:03 raspberrypi sshd[2059]: Connection closed by 192.168.50.4 port 55188
+-- Boot 21c54eafa8c14217aa988e53ba715140 --
+Mar 17 23:13:06 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 17 23:13:06 raspberrypi sshd[788]: Server listening on 0.0.0.0 port 22.
+Mar 17 23:13:06 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 17 23:16:54 raspberrypi sshd[834]: Accepted publickey for pi from 192.168.50.4 port 39500 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 17 23:16:54 raspberrypi sshd[834]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 17 23:16:54 raspberrypi sshd[834]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot be265b879ad04fa1836e309350c299ab --
+Mar 18 00:18:26 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 18 00:18:26 raspberrypi sshd[788]: Server listening on 0.0.0.0 port 22.
+Mar 18 00:18:26 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 18 00:18:52 raspberrypi sshd[831]: Accepted publickey for pi from 192.168.50.4 port 52116 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 18 00:18:52 raspberrypi sshd[831]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 18 00:18:52 raspberrypi sshd[831]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 3c039c3e07514860a079616dcd5696cd --
+Mar 18 00:20:29 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 18 00:20:29 raspberrypi sshd[802]: Server listening on 0.0.0.0 port 22.
+Mar 18 00:20:29 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 18 00:20:58 raspberrypi sshd[845]: Accepted publickey for pi from 192.168.50.4 port 46720 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 18 00:20:58 raspberrypi sshd[845]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 18 00:20:58 raspberrypi sshd[845]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 25 06:35:39 raspberrypi sshd[9044]: Accepted publickey for pi from 192.168.50.4 port 38686 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 25 06:35:39 raspberrypi sshd[9044]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 25 06:35:39 raspberrypi sshd[9044]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 59723f26da8e4303a79f0ecb1943fb0c --
+Mar 25 07:02:06 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 25 07:02:06 raspberrypi sshd[800]: Server listening on 0.0.0.0 port 22.
+Mar 25 07:02:06 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 25 07:04:16 raspberrypi sshd[879]: Accepted publickey for pi from 192.168.50.4 port 36438 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 25 07:04:16 raspberrypi sshd[879]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 25 07:04:17 raspberrypi sshd[879]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 27 22:18:51 raspberrypi sshd[4130]: Accepted publickey for pi from 192.168.50.4 port 57012 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 27 22:18:51 raspberrypi sshd[4130]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 27 22:18:51 raspberrypi sshd[4130]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 27 22:18:51 raspberrypi sshd[4130]: pam_unix(sshd:session): session closed for user pi
+-- Boot ecebb31c6b2d48ffb56373c7189c594f --
+Mar 27 23:44:41 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 27 23:44:41 raspberrypi sshd[796]: Server listening on 0.0.0.0 port 22.
+Mar 27 23:44:41 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 27 23:48:03 raspberrypi sshd[895]: Accepted publickey for pi from 192.168.50.4 port 35090 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 27 23:48:03 raspberrypi sshd[895]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 27 23:48:03 raspberrypi sshd[895]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 12894e14bab142b7abff55b6cf0b47df --
+Mar 28 00:18:35 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 00:18:35 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 00:18:35 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 00:21:13 raspberrypi sshd[880]: Accepted publickey for pi from 192.168.50.6 port 57070 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 00:21:13 raspberrypi sshd[880]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 00:21:13 raspberrypi sshd[880]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 00:23:36 raspberrypi sshd[923]: Accepted publickey for pi from 192.168.50.7 port 34602 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 00:23:36 raspberrypi sshd[923]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 00:23:36 raspberrypi sshd[923]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 00:28:01 raspberrypi sshd[964]: Accepted publickey for pi from 192.168.50.60 port 36270 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 00:28:01 raspberrypi sshd[964]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 00:28:01 raspberrypi sshd[964]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot 09bb487ac2ed439193f4782246adca45 --
+Mar 28 00:32:11 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 00:32:12 raspberrypi sshd[798]: Server listening on 0.0.0.0 port 22.
+Mar 28 00:32:12 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 416db79aaea045bfb468352f50db554a --
+Mar 28 01:28:34 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:28:34 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 01:28:34 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 01:31:18 raspberrypi sshd[871]: Invalid user mohamd from 192.168.50.3 port 39546
+Mar 28 01:31:22 raspberrypi sshd[871]: pam_unix(sshd:auth): check pass; user unknown
+Mar 28 01:31:22 raspberrypi sshd[871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.50.3
+Mar 28 01:31:24 raspberrypi sshd[871]: Failed password for invalid user mohamd from 192.168.50.3 port 39546 ssh2
+Mar 28 01:31:28 raspberrypi sshd[871]: pam_unix(sshd:auth): check pass; user unknown
+Mar 28 01:31:30 raspberrypi sshd[871]: Failed password for invalid user mohamd from 192.168.50.3 port 39546 ssh2
+-- Boot 483006ce3cf841f399f586e75b3f28a4 --
+Mar 28 01:31:37 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:31:37 raspberrypi sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar 28 01:31:37 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 01:34:13 raspberrypi sshd[868]: Connection closed by authenticating user pi 192.168.50.3 port 35498 [preauth]
+-- Boot 13004a26cde648e58c98f9d6187cac49 --
+Mar 28 01:42:53 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:42:53 raspberrypi sshd[798]: Server listening on 0.0.0.0 port 22.
+Mar 28 01:42:53 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 24cb6f7a80f74f4cb5975ff0841e0730 --
+Mar 28 01:44:56 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:44:56 raspberrypi sshd[798]: Server listening on 0.0.0.0 port 22.
+Mar 28 01:44:56 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 01:45:46 raspberrypi sshd[871]: Accepted publickey for pi from 192.168.50.5 port 46938 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 01:45:46 raspberrypi sshd[871]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 01:45:46 raspberrypi sshd[871]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 01:46:15 raspberrypi sshd[910]: Accepted publickey for pi from 192.168.50.5 port 41022 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 01:46:15 raspberrypi sshd[910]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 01:46:15 raspberrypi sshd[910]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 01:48:51 raspberrypi sshd[960]: Accepted publickey for pi from 192.168.50.4 port 55326 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 01:48:51 raspberrypi sshd[960]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 01:48:51 raspberrypi sshd[960]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 01:49:17 raspberrypi sshd[798]: Received signal 15; terminating.
+Mar 28 01:49:17 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:49:17 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 28 01:49:17 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot c06ecb7743eb4797b79792775492aa9c --
+Mar 28 01:49:20 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 01:49:20 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 01:49:20 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 01:49:22 raspberrypi sshd[868]: Accepted publickey for pi from 192.168.50.4 port 56046 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 01:49:22 raspberrypi sshd[868]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 01:49:22 raspberrypi sshd[868]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:33:38 raspberrypi sshd[972]: Accepted publickey for pi from 192.168.50.4 port 48836 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:33:38 raspberrypi sshd[972]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:33:38 raspberrypi sshd[972]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:34:48 raspberrypi sshd[1012]: Accepted publickey for pi from 192.168.50.4 port 42214 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:34:48 raspberrypi sshd[1012]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:34:49 raspberrypi sshd[1012]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:36:23 raspberrypi sshd[1034]: Accepted publickey for pi from 192.168.50.4 port 37892 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:36:23 raspberrypi sshd[1034]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:36:23 raspberrypi sshd[1034]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:38:53 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 28 02:38:53 raspberrypi sshd[797]: Received signal 15; terminating.
+Mar 28 02:38:54 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 28 02:38:54 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 123bacedcb4a4bc1a40cdd34b4736526 --
+Mar 28 02:38:57 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 02:38:58 raspberrypi sshd[796]: Server listening on 0.0.0.0 port 22.
+Mar 28 02:38:58 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 02:38:58 raspberrypi sshd[830]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Mar 28 02:38:59 raspberrypi sshd[832]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Mar 28 02:39:00 raspberrypi sshd[834]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Mar 28 02:39:00 raspberrypi sshd[836]: fatal: Access denied for user pi by PAM account configuration [preauth]
+Mar 28 02:40:17 raspberrypi sshd[892]: Accepted publickey for pi from 192.168.50.4 port 54824 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:40:17 raspberrypi sshd[892]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:40:18 raspberrypi sshd[892]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:41:49 raspberrypi sshd[957]: Accepted publickey for pi from 192.168.50.4 port 37438 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:41:49 raspberrypi sshd[957]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:41:49 raspberrypi sshd[957]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:43:25 raspberrypi sshd[980]: Accepted publickey for pi from 192.168.50.4 port 41208 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:43:25 raspberrypi sshd[980]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:43:25 raspberrypi sshd[980]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:46:07 raspberrypi sshd[1061]: Accepted publickey for pi from 192.168.50.4 port 41186 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:46:07 raspberrypi sshd[1061]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:46:07 raspberrypi sshd[1061]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 02:49:38 raspberrypi sshd[1081]: Accepted publickey for pi from 192.168.50.4 port 47622 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 02:49:38 raspberrypi sshd[1081]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 02:49:38 raspberrypi sshd[1081]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot db329f9b62ad43f2a8ec18dbcc72c8a1 --
+Mar 28 03:03:41 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:03:41 raspberrypi sshd[799]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:03:41 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 03:04:16 raspberrypi sshd[877]: Accepted publickey for pi from 192.168.50.10 port 58430 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 03:04:16 raspberrypi sshd[877]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 03:04:16 raspberrypi sshd[877]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot e98a88882c634735a0a4bdbfaf43c9fa --
+Mar 28 03:16:22 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:16:22 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:16:22 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 03:23:47 raspberrypi sshd[897]: Accepted publickey for pi from 192.168.50.4 port 39488 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 03:23:47 raspberrypi sshd[897]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 03:23:47 raspberrypi sshd[897]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 03:25:18 raspberrypi sshd[797]: Received signal 15; terminating.
+Mar 28 03:25:18 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:25:18 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 28 03:25:18 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot ac8c27ec01e44f3c9bd2bb2376ec5b38 --
+Mar 28 03:25:22 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:25:22 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:25:22 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 03:25:31 raspberrypi sshd[874]: Accepted publickey for pi from 192.168.50.4 port 50726 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 03:25:31 raspberrypi sshd[874]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 03:25:31 raspberrypi sshd[874]: pam_env(sshd:session): deprecated reading of user environment enabled
+-- Boot ce36ce06bc2f4382af05505f80fe1ec9 --
+Mar 28 03:32:33 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:32:33 raspberrypi sshd[800]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:32:33 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot c445784849ee44cdade73566bae5c295 --
+Mar 28 03:33:35 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:33:35 raspberrypi sshd[791]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:33:35 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 41bd346589ba405898fe51ce6b7a8dcd --
+Mar 28 03:50:09 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 03:50:09 raspberrypi sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar 28 03:50:09 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 76a1e23cfbf14243a36e02ffe2ea6991 --
+Mar 28 04:04:38 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 04:04:38 raspberrypi sshd[793]: Server listening on 0.0.0.0 port 22.
+Mar 28 04:04:38 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot a66146bbdbd9445e8a677f20f4572b53 --
+Mar 28 04:17:56 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 04:17:56 raspberrypi sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar 28 04:17:56 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 3831cff67fd44871b805761b33c88eb7 --
+Mar 28 04:39:32 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 04:39:33 raspberrypi sshd[797]: Server listening on 0.0.0.0 port 22.
+Mar 28 04:39:33 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 04:56:55 raspberrypi systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Mar 28 04:56:55 raspberrypi sshd[797]: Received signal 15; terminating.
+Mar 28 04:56:55 raspberrypi systemd[1]: ssh.service: Deactivated successfully.
+Mar 28 04:56:55 raspberrypi systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot ff89c29794064e7eb27dfc5a1c8a3736 --
+Mar 28 04:56:58 raspberrypi systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Mar 28 04:56:58 raspberrypi sshd[796]: Server listening on 0.0.0.0 port 22.
+Mar 28 04:56:58 raspberrypi systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Mar 28 05:05:32 raspberrypi sshd[882]: error: kex_exchange_identification: client sent invalid protocol identifier ""
+Mar 28 05:05:32 raspberrypi sshd[882]: banner exchange: Connection from 192.168.50.1 port 55996: invalid format
+Mar 28 05:05:36 raspberrypi sshd[883]: Invalid user hanane from 192.168.50.1 port 58376
+Mar 28 05:05:36 raspberrypi sshd[883]: Connection closed by invalid user hanane 192.168.50.1 port 58376 [preauth]
+Mar 28 05:05:41 raspberrypi sshd[885]: Invalid user hanan from 192.168.50.1 port 58388
+Mar 28 05:05:41 raspberrypi sshd[885]: Connection closed by invalid user hanan 192.168.50.1 port 58388 [preauth]
+Mar 28 05:05:41 raspberrypi sshd[887]: Accepted publickey for pi from 192.168.50.1 port 58396 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:05:41 raspberrypi sshd[887]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:05:41 raspberrypi sshd[887]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:05:41 raspberrypi sshd[887]: pam_unix(sshd:session): session closed for user pi
+Mar 28 05:05:41 raspberrypi sshd[913]: Invalid user admin from 192.168.50.1 port 58402
+Mar 28 05:05:41 raspberrypi sshd[913]: Connection closed by invalid user admin 192.168.50.1 port 58402 [preauth]
+Mar 28 05:06:22 raspberrypi sshd[916]: error: kex_exchange_identification: client sent invalid protocol identifier ""
+Mar 28 05:06:22 raspberrypi sshd[916]: banner exchange: Connection from 192.168.50.1 port 54396: invalid format
+Mar 28 05:06:27 raspberrypi sshd[917]: Accepted publickey for pi from 192.168.50.1 port 41492 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:06:27 raspberrypi sshd[917]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:06:27 raspberrypi sshd[917]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:06:36 raspberrypi sshd[951]: Accepted publickey for pi from 192.168.50.1 port 44578 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:06:36 raspberrypi sshd[951]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:06:36 raspberrypi sshd[951]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:06:36 raspberrypi sshd[951]: pam_unix(sshd:session): session closed for user pi
+Mar 28 05:11:13 raspberrypi sshd[965]: Accepted publickey for pi from 192.168.50.1 port 50434 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:11:13 raspberrypi sshd[965]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:11:13 raspberrypi sshd[965]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:11:13 raspberrypi sshd[965]: pam_unix(sshd:session): session closed for user pi
+Mar 28 05:11:21 raspberrypi sshd[1003]: Accepted publickey for pi from 192.168.50.1 port 45212 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:11:21 raspberrypi sshd[1003]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:11:21 raspberrypi sshd[1003]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:13:35 raspberrypi sshd[1025]: Accepted publickey for pi from 192.168.50.1 port 46666 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:13:35 raspberrypi sshd[1025]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:13:35 raspberrypi sshd[1025]: pam_env(sshd:session): deprecated reading of user environment enabled
+Mar 28 05:20:19 raspberrypi sshd[1075]: Accepted publickey for pi from 192.168.50.1 port 34508 ssh2: ED25519 SHA256:Avc/um7oE7xutCRMPg6k9iEH+oJgzcPiLxEwd1mQ3zc
+Mar 28 05:20:19 raspberrypi sshd[1075]: pam_unix(sshd:session): session opened for user pi(uid=1000) by (uid=0)
+Mar 28 05:20:19 raspberrypi sshd[1075]: pam_env(sshd:session): deprecated reading of user environment enabled
